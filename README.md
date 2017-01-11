@@ -8,8 +8,8 @@
 How to install Flask on Cloud9?
 --------------------------------
 To install the Flask package the easy_install python module should be used:
+    
     $ sudo easy_install Flask
-
     $ pip install virtualenv virtualenvwrapper
     $ mkvirtualenv flask-example
     $ pip install Flask
