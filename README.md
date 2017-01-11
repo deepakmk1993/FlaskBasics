@@ -6,6 +6,9 @@
     
     Procfile
     web: gunicorn app:app
+    
+    if __name__ == "__main__":
+        app.run()
 
 --------------------------------
 [How to install Flask on Cloud9?](https://c9.io/santiagobasulto_1/flask-example)
