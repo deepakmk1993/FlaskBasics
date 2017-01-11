@@ -12,7 +12,7 @@ def home():
        <title>Flask Application</title>
     </head>
     <body>
-        <h1>My First Flask Application</h1>
+        <h1>My Second Flask Application</h1>
     </body>
     """
 @app.route('/<name>')
