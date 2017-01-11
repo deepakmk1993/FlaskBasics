@@ -3,6 +3,9 @@
     mkvirtualenv flask
     pip install flask gunicorn
     pip freeze > requirements.txt
+    
+    Procfile
+    web: gunicorn app:app
 
 --------------------------------
 [How to install Flask on Cloud9?](https://c9.io/santiagobasulto_1/flask-example)
