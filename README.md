@@ -5,7 +5,7 @@
     pip freeze > requirements.txt
 
 --------------------------------
-How to install Flask on Cloud9?(https://c9.io/santiagobasulto_1/flask-example)
+(How to install Flask on Cloud9?)(https://c9.io/santiagobasulto_1/flask-example)
 --------------------------------
 To install the Flask package the easy_install python module should be used:
     
