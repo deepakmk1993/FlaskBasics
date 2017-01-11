@@ -5,18 +5,8 @@ from flask import render_template
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    return """
-    <!DOCTYPE html>
-    <head>
-       <title>Flask Application</title>
-    </head>
-    <body>
-        <h1>My Second Flask Application</h1>
-    </body>
-    """
 @app.route('/<name>')
-def index(name='Treehouse'):
+def index(name='Deepak'):
     return render_template("index.html", name=name)
 
 
